@@ -14,23 +14,6 @@ This guide documents the complete workflow for creating a Redis connection and c
 
 ---
 
-## Flow Diagram
-
-```mermaid
-flowchart TD
-    A([🚀 Start]) --> B[redis : set\nkey=test-key\nvalue=test-value\n→ stringResult]
-    B --> C([🔗 redisClient\nballerinax/redis])
-    B --> D[[Error Handler\nlog:printError]]
-    D --> E([⏹ End])
-
-    style A fill:#4CAF50,color:#fff,stroke:#388E3C
-    style B fill:#2196F3,color:#fff,stroke:#1565C0
-    style C fill:#F44336,color:#fff,stroke:#B71C1C
-    style D fill:#FF9800,color:#fff,stroke:#E65100
-    style E fill:#607D8B,color:#fff,stroke:#37474F
-```
-
----
 
 ## Stage-by-Stage Walkthrough
 
