@@ -1,0 +1,1 @@
+/Users/vishwajayawickrama/bi-workspace/snowflake_data_insert
